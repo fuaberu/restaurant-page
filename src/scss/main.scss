@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    background: url('src\scss\sushi-man-background.jpg');
+
+}
+
+#sushi-man {
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+
+footer {
+    left: 1%;
+    bottom: 1%;
+    position: fixed;
+    display: flex;
+}
+.footer-link {
+    text-decoration: none;
+    color: #f4a261;
+    font-weight: bold;
+    transition: all 0.2s;
+}
